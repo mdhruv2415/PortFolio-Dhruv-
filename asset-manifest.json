@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/PortFolio-Dhruv-/static/css/main.3699fc53.css",
+    "main.js": "/PortFolio-Dhruv-/static/js/main.cfc62f38.js",
+    "static/media/p1.png": "/PortFolio-Dhruv-/static/media/p1.70eab2661f9a63d81bdb.png",
+    "static/media/p2.png": "/PortFolio-Dhruv-/static/media/p2.3fa2f4f053bc7b738d27.png",
+    "static/media/dhrdhr.jpg": "/PortFolio-Dhruv-/static/media/dhrdhr.8710e23e67dea2ef655d.jpg",
+    "static/media/p5.png": "/PortFolio-Dhruv-/static/media/p5.d88a2a818c861713ed3f.png",
+    "static/media/p3.png": "/PortFolio-Dhruv-/static/media/p3.cdbaac30c8d203969e89.png",
+    "static/media/p4.png": "/PortFolio-Dhruv-/static/media/p4.d563cbaa664943721b81.png",
+    "index.html": "/PortFolio-Dhruv-/index.html",
+    "main.3699fc53.css.map": "/PortFolio-Dhruv-/static/css/main.3699fc53.css.map",
+    "main.cfc62f38.js.map": "/PortFolio-Dhruv-/static/js/main.cfc62f38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3699fc53.css",
+    "static/js/main.cfc62f38.js"
+  ]
+}
