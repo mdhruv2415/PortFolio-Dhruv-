@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/PortFolio-Dhruv-/static/css/main.e8ac04ab.css",
-    "main.js": "/PortFolio-Dhruv-/static/js/main.3a645164.js",
+    "main.css": "/PortFolio-Dhruv-/static/css/main.2b7b23a4.css",
+    "main.js": "/PortFolio-Dhruv-/static/js/main.71dcee26.js",
     "static/media/p1.png": "/PortFolio-Dhruv-/static/media/p1.70eab2661f9a63d81bdb.png",
+    "static/media/download.png": "/PortFolio-Dhruv-/static/media/download.6779e6e3908d8feb5a36.png",
     "static/media/p2.png": "/PortFolio-Dhruv-/static/media/p2.3fa2f4f053bc7b738d27.png",
     "static/media/dhrdhr.jpg": "/PortFolio-Dhruv-/static/media/dhrdhr.8710e23e67dea2ef655d.jpg",
     "static/media/p5.png": "/PortFolio-Dhruv-/static/media/p5.d88a2a818c861713ed3f.png",
     "static/media/p3.png": "/PortFolio-Dhruv-/static/media/p3.cdbaac30c8d203969e89.png",
     "static/media/p4.png": "/PortFolio-Dhruv-/static/media/p4.d563cbaa664943721b81.png",
     "index.html": "/PortFolio-Dhruv-/index.html",
-    "main.e8ac04ab.css.map": "/PortFolio-Dhruv-/static/css/main.e8ac04ab.css.map",
-    "main.3a645164.js.map": "/PortFolio-Dhruv-/static/js/main.3a645164.js.map"
+    "main.2b7b23a4.css.map": "/PortFolio-Dhruv-/static/css/main.2b7b23a4.css.map",
+    "main.71dcee26.js.map": "/PortFolio-Dhruv-/static/js/main.71dcee26.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8ac04ab.css",
-    "static/js/main.3a645164.js"
+    "static/css/main.2b7b23a4.css",
+    "static/js/main.71dcee26.js"
   ]
 }
