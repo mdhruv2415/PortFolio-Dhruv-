@@ -1,9 +1,11 @@
 import React from 'react'
 import {FiArrowRight} from 'react-icons/fi'
 import { NavLink } from 'react-router-dom'
+// import image from '../images/download.png'
+
 const Landingpage = () => {
   return (
-    <div className="rotate w-[100vw] bg-[url('http://findmatthew.com/img/filler.png')] h-[100vh]">
+    <div className="rotate w-[100vw] h-[100vh] backImage">
       <canvas width="1242" height="703" 
         className='w-[828px] h-[469px] overflow-clip aspect-[1242/703]'></canvas>
         <div className='flex flex-col w-1/2 mx-auto -mt-[150px]'>
