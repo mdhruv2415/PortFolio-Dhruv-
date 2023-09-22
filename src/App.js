@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App relative overflow-x-hidden">
       <Navbar/>
-      <Routes>
+      <Routes >
         <Route path ='/' element={<Landingpage />}></Route>
         <Route path ='/about' element={<About />}></Route>
         <Route path ='/project' element={<Projects />}></Route>

@@ -13,7 +13,7 @@
   }
 }
 
-/* .App-header {
+.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -97,9 +97,9 @@
   overflow-x: auto;
   position: relative;
   
-  &::-webkit-scrollbar {
+  /* &&::-webkit-scrollbar {
     display: block;
-  }
+  } */
 }
 
 .card {
@@ -141,4 +141,4 @@
   .card {
     margin: .5rem;
   }
-} */
+}
