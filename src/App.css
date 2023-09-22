@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.active {
+  color: #e31b6d;
+}
+
+.workbutton:hover .hoverEffect {
+  transform: rotate(90deg);
+}
+
+.hex {
+  margin-top: 30px;
+  width: 104px;
+  height: 60px;
+  background-color: #04c2c9;
+  border-color: #04c2c9;
+  position: relative;
+  display: inline-block;
+}
+.hex:before {
+  content: " ";
+  width: 0; height: 0;
+  border-bottom: 30px solid;
+  border-color: inherit;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+  position: absolute;
+  top: -30px;
+  right: 0px;
+}
+.hex:after {
+  content: "";
+  width: 0;
+  position: absolute;
+  bottom: -30px;
+  border-top: 30px solid;
+  border-color: inherit;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+  right: 0px;
+}
+
+.hexagon {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background: url(./images/dhrdhr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-container:hover {
+  background-color: whitesmoke !important;
+  
+}
+.main-container:hover .upper-part {
+  display: block;
+  translate: 0 120px;
+}
+.container {
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 80px;
+}
+
+.cards-container {
+  display: flex;
+  border-radius: 6px;
+  color: #424242;
+  background: #eee;
+  padding: 2rem;
+  box-shadow: 0 0 1rem #000 inset;
+  overflow-x: auto;
+  position: relative;
+  
+  &::-webkit-scrollbar {
+    display: block;
+  }
+}
+
+.card {
+  flex: 1 0 250px;
+  box-shadow: 0 1px 1rem -4px #000;
+  background: #fff;
+  margin: 1rem;
+  overflow: hidden;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 1rem -4px #1d1d1d;
+  
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  object-fit: center;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 625px) {
+  .container {
+    width: 100%
+  }
+  
+  .cards-container {
+    padding: .5rem;
+  }
+  
+  .card {
+    margin: .5rem;
+  }
+}
